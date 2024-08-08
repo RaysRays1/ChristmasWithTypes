@@ -4,11 +4,12 @@ namespace ChristmasWithTypes
     public class Christmas
     {
         public string[] Presents;
-        public string Santa { get; set; }
-        public int TreeHeight { get; set; } //TODO Make the Height property nullable
+        public string Santa { get; set; } //this is a property
+        public int? TreeHeight { get; set; } //TODO Make the TreeHeight property nullable
 
         //TODO Make the property, "Day", type enum
-        public enum Day { /*Fill out the days of the week*/ };
+        //this is a comment
+        public enum Day { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
 
     }
 }
